@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TMS Insurance Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>TMS Insurance Group</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#quote">Get a Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to TMS Insurance Group</h2>
+        <p>We offer the best insurance solutions tailored to your needs. Trust us to safeguard your future.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At TMS Insurance Group, we have been serving clients for over 20 years, providing top-notch insurance policies that cater to your unique needs. Our experienced team is committed to offering personalized service.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Auto Insurance</li>
+            <li>Home Insurance</li>
+            <li>Life Insurance</li>
+            <li>Health Insurance</li>
+            <li>Business Insurance</li>
+        </ul>
+    </section>
+
+    <section id="quote" class="section">
+        <h2>Get a Quote</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Select Insurance Type:</label>
+            <select id="service" name="service">
+                <option value="auto">Auto Insurance</option>
+                <option value="home">Home Insurance</option>
+                <option value="life">Life Insurance</option>
+                <option value="health">Health Insurance</option>
+                <option value="business">Business Insurance</option>
+            </select>
+
+            <input type="submit" value="Get Quote">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TMS Insurance Group. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
